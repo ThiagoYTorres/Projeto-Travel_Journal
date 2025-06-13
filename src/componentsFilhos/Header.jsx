@@ -1,8 +1,10 @@
+import globeIcon from '../assets/Globe.png';
+
 function Header() {
   return (
     <header>
         <nav className="nav">
-            <img src='src/assets/Globe.png'/><span>my travel journal</span>
+            <img src={globeIcon}/><span>my travel journal</span>
         </nav>
 
     </header>
